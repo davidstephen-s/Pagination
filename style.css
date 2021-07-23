@@ -1,0 +1,72 @@
+main{
+    height: 500px;
+}
+h1{
+    text-align: center;
+    color :  #30110D;
+    text-shadow:5px 5px 10px rgba(202, 100, 100, 0.911);
+}
+button{
+    height:30px;
+    width: 40px;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: #f2bc94;
+    color: #30110D;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    color: #f2bc94;
+    background-color: #30110D;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 9px 3px rgba(202, 100, 100, 0.911);
+    
+    border-radius: 5px;
+    font-size: larger;
+}
+.active{
+    /* color: #f2bc94;
+    background-color: rgba(122, 43, 43, 0.911); */
+    box-shadow: 0px 0px 9px 3px rgba(202, 100, 100, 0.911);
+    border-radius: 5px; 
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+}
+div{
+    margin:30px;
+}
+i{
+    font-style: normal;
+}
+#next,#previous{
+    width:80px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align:center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    
+    background-color: #f2bc94;
+    color: #30110D;
+}
+tr:nth-child(odd) {
+    color: #f2bc94;
+    background-color: #30110D;
+}
+/* background-color: #521c15; 
+background-color: #491f19;*/
